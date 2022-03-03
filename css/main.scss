@@ -42,7 +42,7 @@ a:hover{
     font-family: MRSEAV, serif;
     font-size: 118px;
     color: #c4cccf;
-    padding: 32px 0;
+    padding: 25px 0;
 }
 
 @media (max-width: 1024px) { 
@@ -178,7 +178,7 @@ header {
     position: relative;
     margin-bottom: -50px;
     .counteiner {
-        padding: 150px 0 0 0;
+        padding: 160px 0 0 0;
         position: relative;
     }
     @media (max-width: 750px) { 
@@ -949,6 +949,7 @@ footer {
     footer {
         .counteiner {
             flex-direction: column;
+            padding: 20px;
         }
 
         .title-counteiner {

@@ -44,7 +44,7 @@ a:hover {
   font-family: MRSEAV, serif;
   font-size: 118px;
   color: #c4cccf;
-  padding: 32px 0;
+  padding: 25px 0;
 }
 
 @media (max-width: 1024px) {
@@ -186,7 +186,7 @@ header li {
 }
 
 .banner .counteiner {
-  padding: 150px 0 0 0;
+  padding: 160px 0 0 0;
   position: relative;
 }
 
@@ -1050,6 +1050,7 @@ footer li:hover {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    padding: 20px;
   }
   footer .title-counteiner {
     display: -webkit-box;
