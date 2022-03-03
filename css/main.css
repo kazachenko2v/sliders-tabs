@@ -380,7 +380,7 @@ header li {
 }
 
 .left-arrow::before {
-  content: url(/img/slider/ArrowLeft.png);
+  content: url("../img/slider/ArrowLeft.png");
 }
 
 .right-arrow {
@@ -391,7 +391,7 @@ header li {
 }
 
 .right-arrow::before {
-  content: url(/img/slider/ArrowRight.png);
+  content: url("../img/slider/ArrowRight.png");
 }
 
 @media (max-width: 1024px) {
@@ -526,50 +526,50 @@ header li {
 }
 
 .icon1 {
-  background-image: url("/img/tabs/tab-menu-image1.png");
+  background-image: url("../img/tabs/tab-menu-image1.png");
 }
 
 .icon2 {
-  background-image: url("/img/tabs/tab-menu-image2.png");
+  background-image: url("../img/tabs/tab-menu-image2.png");
 }
 
 .icon3 {
-  background-image: url("/img/tabs/tab-menu-image3.png");
+  background-image: url("../img/tabs/tab-menu-image3.png");
 }
 
 .icon4 {
-  background-image: url("/img/tabs/tab-menu-image4.png");
+  background-image: url("../img/tabs/tab-menu-image4.png");
 }
 
 @media (min-width: 768px) {
   .main-tab-item1:hover .icon {
-    background-image: url("/img/tabs/tab-menu-hover-image1.png");
+    background-image: url("../img/tabs/tab-menu-hover-image1.png");
   }
   .main-tab-item2:hover .icon {
-    background-image: url("/img/tabs/tab-menu-hover-image2.png");
+    background-image: url("../img/tabs/tab-menu-hover-image2.png");
   }
   .main-tab-item3:hover .icon {
-    background-image: url("/img/tabs/tab-menu-hover-image3.png");
+    background-image: url("../img/tabs/tab-menu-hover-image3.png");
   }
   .main-tab-item4:hover .icon {
-    background-image: url("/img/tabs/tab-menu-hover-image4.png");
+    background-image: url("../img/tabs/tab-menu-hover-image4.png");
   }
 }
 
 .icon-active1 {
-  background-image: url("/img/tabs/tab-menu-hover-image1.png");
+  background-image: url("../img/tabs/tab-menu-hover-image1.png");
 }
 
 .icon-active2 {
-  background-image: url("/img/tabs/tab-menu-hover-image2.png");
+  background-image: url("../img/tabs/tab-menu-hover-image2.png");
 }
 
 .icon-active3 {
-  background-image: url("/img/tabs/tab-menu-hover-image3.png");
+  background-image: url("../img/tabs/tab-menu-hover-image3.png");
 }
 
 .icon-active4 {
-  background-image: url("/img/tabs/tab-menu-hover-image4.png");
+  background-image: url("../img/tabs/tab-menu-hover-image4.png");
 }
 
 .tab-active {
@@ -784,7 +784,7 @@ header li {
 .choose li {
   margin-bottom: 10px;
   padding: 0 0 2px 20px;
-  background-image: url(/img/choose/checkMark.svg);
+  background-image: url("../img/choose/checkMark.svg");
   background-position: top left;
   background-repeat: no-repeat;
 }
@@ -1016,11 +1016,11 @@ footer li:hover {
 }
 
 .footer-left-arrow::before {
-  content: url("/img/footer/footer-left-arrow.png");
+  content: url("../img/footer/footer-left-arrow.png");
 }
 
 .footer-right-arrow::before {
-  content: url("/img/footer/footer-right-arrow.png");
+  content: url("../img/footer/footer-right-arrow.png");
 }
 
 .footer-logo h2 {
