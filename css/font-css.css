@@ -1,29 +1,29 @@
 @font-face {
     font-family: MRSEAV;
     font-style: italic;
-    src: url("/Fonts/fonts/MrsEaves/MRSEA_11.woff");
+    src: url('../Fonts/fonts/MrsEaves/MRSEA_11.woff');
 }
 
 @font-face {
     font-family: Segoe-WP-Regular;
     font-style: normal;
-    src: url("/Fonts/SegoeWPRegular/Segoe-WP-Regular.woff");
+    src: url('../Fonts/SegoeWPRegular/Segoe-WP-Regular.woff');
 }
 
 @font-face {
     font-family: Segoe-WP-light;
     font-style: 300;
-    src: url("/Fonts/SegoeWPRegular/segoe-wp-light.woff");
+    src: url('../Fonts/SegoeWPRegular/segoe-wp-light.woff');
 }
 
 @font-face {
     font-family: Segoe-WP-Semibold;
     font-style: 600;
-    src: url("/Fonts/SegoeWPRegular/segoe-wp-light.woff");
+    src: url('../Fonts/SegoeWPRegular/segoe-wp-light.woff');
 }
 
 @font-face {
     font-family: Univers-CE-Light;
     font-style: 600;
-    src: url("/Fonts/UniversCE/Univers-CE-Light.woff");
+    src: url('../Fonts/UniversCE/Univers-CE-Light.woff');
 }
