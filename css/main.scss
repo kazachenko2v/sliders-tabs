@@ -1,5 +1,5 @@
 @import url(font-css.css);
-@import url(/css/reset.css);
+@import url(reset.css);
 
 $bgColor: #ffffff;
 
@@ -368,7 +368,7 @@ header {
 }
 
 .left-arrow::before {
-    content: url(img/slider/ArrowLeft.png);
+    content: url(/img/slider/ArrowLeft.png);
 }
 
 .right-arrow {
@@ -378,7 +378,7 @@ header {
 }
 
 .right-arrow::before {
-    content: url(img/slider/ArrowRight.png);
+    content: url(/img/slider/ArrowRight.png);
 }
 
 @media (max-width: 1024px) {

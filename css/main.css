@@ -1,5 +1,5 @@
 @import url(font-css.css);
-@import url(/css/reset.css);
+@import url(reset.css);
 html {
   height: 100%;
 }
@@ -380,7 +380,7 @@ header li {
 }
 
 .left-arrow::before {
-  content: url(img/slider/ArrowLeft.png);
+  content: url(/img/slider/ArrowLeft.png);
 }
 
 .right-arrow {
@@ -391,7 +391,7 @@ header li {
 }
 
 .right-arrow::before {
-  content: url(img/slider/ArrowRight.png);
+  content: url(/img/slider/ArrowRight.png);
 }
 
 @media (max-width: 1024px) {
