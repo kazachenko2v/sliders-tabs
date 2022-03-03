@@ -1,0 +1,29 @@
+@font-face {
+    font-family: MRSEAV;
+    font-style: italic;
+    src: url(../fonts/MrsEaves/MRSEA_11.woff);
+}
+
+@font-face {
+    font-family: Segoe-WP-Regular;
+    font-style: normal;
+    src: url(../fonts/SegoeWPRegular/Segoe-WP-Regular.woff);
+}
+
+@font-face {
+    font-family: Segoe-WP-light;
+    font-style: 300;
+    src: url(../fonts/SegoeWPRegular/segoe-wp-light.woff);
+}
+
+@font-face {
+    font-family: Segoe-WP-Semibold;
+    font-style: 600;
+    src: url(../fonts/SegoeWPRegular/segoe-wp-light.woff);
+}
+
+@font-face {
+    font-family: Univers-CE-Light;
+    font-style: 600;
+    src: url(../fonts/UniversCE/Univers-CE-Light.woff);
+}
