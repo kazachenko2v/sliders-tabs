@@ -433,7 +433,7 @@ header {
     width: 15px;
     height: 15px;
     margin: 0 3px;
-    border: solid 1px black;
+    border: solid 1px #ffffff;
     border-radius: 50%;
     cursor: pointer;
 }
@@ -444,7 +444,7 @@ header {
 
 .active {
     @extend %slider-indicator-element;
-    background-color: black;
+    background-color: #ffffff;
 }
 
 // tabs---------------------------------------------------------
@@ -519,16 +519,16 @@ header {
     border-bottom: none;
 }
 
-@keyframes activate {
-    from { opacity: 0;}
-    50% { opacity: .5;}
-    to { opacity: 1;}
-}
-
 .main-tab-content {
     grid-area: content;
-    display: none;
-    
+    border: 1px solid #ffffff;
+    border-top: none;
+
+    .main-tab-content-counteiner {
+        padding: 83px 90px;
+        opacity: 0;
+    }
+
     h2 {
         font-family: Segoe-WP-light, serif;
         color: #676666;
@@ -545,24 +545,20 @@ header {
     }
 }
 
-.main-tab-content-counteiner {
-    padding: 83px 90px;
-    border: 1px solid black;
-    border-top: none;
-}
+
 
 .content-active {
-    display: block; 
+    .main-tab-content-counteiner {
+        opacity: 1;
+        transition: opacity .3s linear;
+    }
 }
 
 .img-counteiner {
     text-align: center;
 }
 
-.img-counteiner,
-.text-counteiner {
-    animation: activate .5s 1 linear;
-}
+
 
 .img-counteiner img {
     max-height: 400px;
@@ -629,12 +625,14 @@ header {
         height: 0;
         overflow: hidden;
         transition: all .3s ease;
+
+        .main-tab-content-counteiner {
+            border: none;
+            padding: 30px;
+            opacity: 1;
+        }
     }
 
-    .main-tab-content-counteiner {
-        border: none;
-        padding: 30px;
-    }
 }
 
 @media (max-width: 620px) { 
