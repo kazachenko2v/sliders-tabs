@@ -433,7 +433,7 @@ header {
     width: 15px;
     height: 15px;
     margin: 0 3px;
-    border: solid 1px #ffffff;
+    border: solid 1px #000000;
     border-radius: 50%;
     cursor: pointer;
 }
@@ -444,7 +444,7 @@ header {
 
 .active {
     @extend %slider-indicator-element;
-    background-color: #ffffff;
+    background-color: #000000;
 }
 
 // tabs---------------------------------------------------------
@@ -521,7 +521,7 @@ header {
 
 .main-tab-content {
     grid-area: content;
-    border: 1px solid #ffffff;
+    border: 1px solid #000000;
     border-top: none;
 
     .main-tab-content-counteiner {
@@ -544,8 +544,6 @@ header {
         line-height: 23px;
     }
 }
-
-
 
 .content-active {
     .main-tab-content-counteiner {
@@ -624,10 +622,10 @@ header {
         display: block;
         height: 0;
         overflow: hidden;
+        border: none;
         transition: all .3s ease;
 
         .main-tab-content-counteiner {
-            border: none;
             padding: 30px;
             opacity: 1;
         }

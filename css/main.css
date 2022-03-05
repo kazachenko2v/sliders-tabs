@@ -446,13 +446,13 @@ header li {
   width: 15px;
   height: 15px;
   margin: 0 3px;
-  border: solid 1px #ffffff;
+  border: solid 1px #000000;
   border-radius: 50%;
   cursor: pointer;
 }
 
 .active {
-  background-color: #ffffff;
+  background-color: #000000;
 }
 
 .tabs {
@@ -582,7 +582,7 @@ header li {
   -ms-grid-column: 1;
   -ms-grid-column-span: 4;
   grid-area: content;
-  border: 1px solid #ffffff;
+  border: 1px solid #000000;
   border-top: none;
 }
 
@@ -679,11 +679,11 @@ header li {
     display: block;
     height: 0;
     overflow: hidden;
+    border: none;
     -webkit-transition: all .3s ease;
     transition: all .3s ease;
   }
   .main-tab-content .main-tab-content-counteiner {
-    border: none;
     padding: 30px;
     opacity: 1;
   }
