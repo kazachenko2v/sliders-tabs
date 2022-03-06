@@ -40,6 +40,8 @@ a:hover{
 
 .logo {
     font-family: MRSEAV, serif;
+    font-weight: 400;
+    font-style: italic;
     font-size: 118px;
     color: #c4cccf;
     padding: 25px 0;
@@ -74,8 +76,8 @@ header {
     }
 
     a {
-        font-family: Segoe-WP-light, serif;
-        font-weight: 300;
+        font-family: Segoe-WP-light, sans-serif;
+        font-weight: 400;
         font-size: 22px;
         color: #e1e4e4;
         padding: 0 21px 0 21px;
@@ -233,7 +235,7 @@ header {
     span:first-child {
         display: block;
         margin-top: 37px;
-        font-family: Segoe-WP-Semibold, serif;
+        font-family: Segoe-WP-Semibold, sans-serif;
         font-weight: 600;
         font-size: 70px;
         letter-spacing: 5px;
@@ -243,14 +245,13 @@ header {
     span:last-of-type {
         display: block;
         margin-top: 3px;
-        font-family: Segoe-WP-light, serif;
-        font-weight: 300;
+        font-family: Segoe-WP-light, sans-serif;
         font-size: 50px;
         color: #ffffff;
     }
     a {
         display: inline-block;
-        font-family: Segoe-WP-light, serif;
+        font-family: Segoe-WP-light, sans-serif;
         color: #ffffff;
         font-size: 23px;
         background-color: #6598e6;
@@ -474,7 +475,7 @@ header {
     cursor: pointer;
 
     h2 {
-        font-family: Segoe-WP-light, serif;
+        font-family: Segoe-WP-light, sans-serif;
         color: #676666;
         font-size: 30px;
         margin-top: 8px;
@@ -530,14 +531,14 @@ header {
     }
 
     h2 {
-        font-family: Segoe-WP-light, serif;
+        font-family: Segoe-WP-light, sans-serif;
         color: #676666;
         font-size: 39px;
         margin-top: 16px;
     }
     
     p {
-        font-family: Univers-CE-Light, serif;
+        font-family: Univers-CE-Light, sans-serif;
         color: #676666;
         font-size: 14px;
         margin-top: 28px;
@@ -695,7 +696,7 @@ header {
     }
 
     h2 {
-        font-family: Segoe-WP-light, serif;
+        font-family: Segoe-WP-light, sans-serif;
         color: #4f4f4f;
         font-size: 32px;
         margin-bottom: 30px;
@@ -710,7 +711,7 @@ header {
     }
 
     span {
-        font-family: Univers-CE-Light, serif;
+        font-family: Univers-CE-Light, sans-serif;
         color: #8a8888;
         font-size: 16px;
     }
@@ -765,7 +766,7 @@ header {
     }
 
     h3 {
-        font-family: Segoe-WP-light, serif;
+        font-family: Segoe-WP-light, sans-serif;
         color: #ffffff;
         font-size: 28px;
         margin-bottom: 20px;
@@ -833,14 +834,14 @@ footer {
     }
 
     h3 {
-        font-family: Segoe-WP-light, serif;
+        font-family: Segoe-WP-light, sans-serif;
         font-size: 22px;
         color: #ffffff;
         margin-bottom: 10px;
     }
 
     li {
-        font-family: Arial, serif;
+        font-family: Arial, sans-serif;
         font-size: 13px;
         color: #9c9b9c;
     }
@@ -863,7 +864,7 @@ footer {
     flex: 1 1 40%;
     position: relative;
     p {
-        font-family: Arial, serif;
+        font-family: Arial, sans-serif;
         font-size: 13px;
         font-weight: bold;
         color: #ffffff;
@@ -874,7 +875,7 @@ footer {
     }
 
     p:first-of-type {
-        font-family: Arial, serif;
+        font-family: Arial, sans-serif;
         font-size: 13px;
         font-weight: 100;
         color: #9c9b9c;
@@ -924,7 +925,7 @@ footer {
     }
 
     p {
-        font-family: Arial, serif;
+        font-family: Arial, sans-serif;
         font-size: 13px;
         color: #ffffff;
     }
