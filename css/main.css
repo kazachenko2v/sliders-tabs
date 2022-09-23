@@ -143,10 +143,10 @@ header li {
     left: 0;
     height: 10%;
     background-color: #ffffff;
-    -webkit-transition: -webkit-transform .1s ease;
-    transition: -webkit-transform .1s ease;
-    transition: transform .1s ease;
-    transition: transform .1s ease, -webkit-transform .1s ease;
+    -webkit-transition: -webkit-transform 0.1s ease;
+    transition: -webkit-transform 0.1s ease;
+    transition: transform 0.1s ease;
+    transition: transform 0.1s ease, -webkit-transform 0.1s ease;
   }
   .burger span {
     top: 50%;
@@ -155,7 +155,7 @@ header li {
   }
   .burger::before,
   .burger::after {
-    content: '';
+    content: "";
   }
   .burger::before {
     top: 0;
@@ -496,10 +496,28 @@ header li {
   display: none;
 }
 
-.main-tab-item .icon {
+.icon {
   height: 155px;
-  background-repeat: no-repeat;
-  background-position: center;
+  width: 155px;
+  margin: 0 auto;
+  text-align: center;
+  -webkit-clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+          clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #4299e9;
+}
+
+.icon svg {
+  width: 100px;
+  height: 100px;
 }
 
 .main-tab-item1 {
@@ -526,51 +544,35 @@ header li {
   grid-area: tab4;
 }
 
-.icon1 {
-  background-image: url("../img/tabs/tab-menu-image1.png");
-}
-
-.icon2 {
-  background-image: url("../img/tabs/tab-menu-image2.png");
-}
-
-.icon3 {
-  background-image: url("../img/tabs/tab-menu-image3.png");
-}
-
-.icon4 {
-  background-image: url("../img/tabs/tab-menu-image4.png");
-}
-
 @media (min-width: 768px) {
   .main-tab-item1:hover .icon {
-    background-image: url("../img/tabs/tab-menu-hover-image1.png");
+    background-color: #ff0be0;
   }
   .main-tab-item2:hover .icon {
-    background-image: url("../img/tabs/tab-menu-hover-image2.png");
+    background-color: #ffd000;
   }
   .main-tab-item3:hover .icon {
-    background-image: url("../img/tabs/tab-menu-hover-image3.png");
+    background-color: #00b462;
   }
   .main-tab-item4:hover .icon {
-    background-image: url("../img/tabs/tab-menu-hover-image4.png");
+    background-color: #ff7712;
   }
 }
 
 .icon-active1 {
-  background-image: url("../img/tabs/tab-menu-hover-image1.png");
+  background-color: #ff0be0;
 }
 
 .icon-active2 {
-  background-image: url("../img/tabs/tab-menu-hover-image2.png");
+  background-color: #ffd000;
 }
 
 .icon-active3 {
-  background-image: url("../img/tabs/tab-menu-hover-image3.png");
+  background-color: #00b462;
 }
 
 .icon-active4 {
-  background-image: url("../img/tabs/tab-menu-hover-image4.png");
+  background-color: #ff7712;
 }
 
 .tab-active {
@@ -609,8 +611,8 @@ header li {
 
 .content-active .main-tab-content-counteiner {
   opacity: 1;
-  -webkit-transition: opacity .3s linear;
-  transition: opacity .3s linear;
+  -webkit-transition: opacity 0.3s linear;
+  transition: opacity 0.3s linear;
 }
 
 .img-counteiner {
@@ -650,9 +652,13 @@ header li {
     border: none;
   }
   .main-tab-item .icon {
+    margin: 0;
     width: 43px;
     height: 50px;
-    background-size: 100%, 90%;
+  }
+  .main-tab-item svg {
+    width: 35px;
+    height: 40px;
   }
   .main-tab-item h2 {
     margin-top: 0;
@@ -664,10 +670,10 @@ header li {
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
     border-top: 20px solid #000000;
-    -webkit-transition: -webkit-transform .3s ease;
-    transition: -webkit-transform .3s ease;
-    transition: transform .3s ease;
-    transition: transform .3s ease, -webkit-transform .3s ease;
+    -webkit-transition: -webkit-transform 0.3s ease;
+    transition: -webkit-transform 0.3s ease;
+    transition: transform 0.3s ease;
+    transition: transform 0.3s ease, -webkit-transform 0.3s ease;
   }
   .main-tab-item .close-arrow-active {
     -webkit-transform: rotate(180deg);
@@ -681,8 +687,8 @@ header li {
     height: 0;
     overflow: hidden;
     border: none;
-    -webkit-transition: all .3s ease;
-    transition: all .3s ease;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
   }
   .main-tab-content .main-tab-content-counteiner {
     padding: 30px;
@@ -1041,10 +1047,10 @@ footer li:hover {
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
     border-top: 20px solid #ffffff;
-    -webkit-transition: -webkit-transform .3s ease;
-    transition: -webkit-transform .3s ease;
-    transition: transform .3s ease;
-    transition: transform .3s ease, -webkit-transform .3s ease;
+    -webkit-transition: -webkit-transform 0.3s ease;
+    transition: -webkit-transform 0.3s ease;
+    transition: transform 0.3s ease;
+    transition: transform 0.3s ease, -webkit-transform 0.3s ease;
   }
   .close-arrow-active {
     -webkit-transform: rotate(180deg);
@@ -1056,8 +1062,8 @@ footer li:hover {
   .footer-tab-content {
     height: 0;
     overflow: hidden;
-    -webkit-transition: all .3s ease;
-    transition: all .3s ease;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
   }
   .footer-slider {
     margin-bottom: 8px;
